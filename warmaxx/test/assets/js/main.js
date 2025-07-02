@@ -129,13 +129,13 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "ชาญยุทธ",
       image: "assets/images/user1.jpg",
       stars: 5,
-      comment: "สายฟรีมีรี โอกาสได้เล่นพร้อมโบนัสค่ะ",
+      comment: "โอนเงินไวมาก ระบบเล่นง่ายจริง 789zeus เลยค่ะ",
     },
     {
       name: "จิรศักดิ์",
       image: "assets/images/user1.jpg",
       stars: 4,
-      comment: "ไม่ใช่บอทนะ แต่ได้เงินทุกครั้งที่เล่น!",
+      comment: "ไม่ใช่บอทนะ แต่ชอบระบบโอนเงินไวมาก!",
     },
     {
       name: "ณัฐธิดา",
@@ -147,13 +147,13 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "มานี",
       image: "assets/images/user2.jpg",
       stars: 4,
-      comment: "แนะนำเพื่อนมาได้โบนัสจริงๆ คุ้มมาก",
+      comment: "บริการดีแอดมินตอบไว ถอนไวมากตั้งแต่เล่นมาเลย",
     },
     {
       name: "วุฒิชัย",
       image: "assets/images/user1.jpg",
       stars: 5,
-      comment: "เว็บนี้มั่นใจเลย ถอนจริง!",
+      comment: "เว็บนี้มั่นใจเลย ถอนจริง และ ไวอีกด้วย!",
     },
     {
       name: "ธนพล",
