@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "ชาญยุทธ",
       image: "assets/images/user1.jpg",
       stars: 5,
-      comment: "โอนเงินไวมาก ระบบเล่นง่ายจริง 789zeus เลยค่ะ",
+      comment: "โอนเงินไวมาก ระบบเล่นง่ายชอบมากค่ะ",
     },
     {
       name: "จิรศักดิ์",
