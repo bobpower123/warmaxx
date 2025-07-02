@@ -127,19 +127,19 @@ document.addEventListener("DOMContentLoaded", function () {
   const fakeReviews = [
         {
       name: "ชาญยุทธ",
-      image: "images/user1.jpg",
+      <img src="images/user1.jpg",
       stars: 5,
       comment: "สายฟรีมีรี โอกาสได้เล่นพร้อมโบนัสค่ะ",
     },
     {
       name: "จิรศักดิ์",
-      image: "images/user1.jpg",
+      <img src="images/user1.jpg",
       stars: 4,
       comment: "ไม่ใช่บอทนะ แต่ได้เงินทุกครั้งที่เล่น!",
     },
     {
       name: "ณัฐธิดา",
-      image: "images/user2.jpg",
+      <img src="images/user2.jpg",
       stars: 5,
       comment: "บริการดีแอดมินตอบไว แนะนำเลยค่ะ",
     },
