@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       name: "มานี",
-      image: "images/user2.jpg.jpg",
+      image: "images/user2.jpg",
       stars: 4,
       comment: "แนะนำเพื่อนมาได้โบนัสจริงๆ คุ้มมาก",
     },
