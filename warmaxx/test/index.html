@@ -101,5 +101,115 @@
     </div>
 
     <script src="assets/js/main.js"></script>
+ 
+    <!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>กล่องแชทแอดมิน</title>
+  <style>
+    .admin-chat-box {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      font-family: sans-serif;
+      background: #fff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      overflow: hidden;
+      z-index: 9999;
+    }
+
+    .admin-chat-box h3 {
+      background: #07eb4f;
+      color: white;
+      margin: 0;
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    .chat-window {
+      height: 220px;
+      padding: 10px;
+      overflow-y: auto;
+      background: #16459c;
+    }
+
+    .chat-message {
+      background: #d4edda;
+      padding: 8px 12px;
+      margin-bottom: 8px;
+      border-radius: 10px;
+      max-width: 90%;
+    }
+
+    .chat-message.admin {
+      background: #2bed58;
+    }
+
+    .chat-input-box {
+      display: flex;
+      border-top: 1px solid #ccc;
+    }
+
+    .chat-input-box input {
+      flex: 1;
+      padding: 10px;
+      border: none;
+      outline: none;
+    }
+
+    .chat-input-box button {
+      background: #28a745;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- กล่องแชทแอดมิน -->
+  <div class="admin-chat-box">
+    <h3>🟢 แชทกับแอดมิน</h3>
+    <div class="chat-window" id="chatWindow"></div>
+    <div class="chat-input-box">
+      <input type="text" id="chatInput" placeholder="พิมพ์ข้อความของคุณ..." />
+      <button onclick="sendToAdmin()">ส่ง</button>
+    </div>
+  </div>
+
+  <script>
+    function sendToAdmin() {
+      const input = document.getElementById("chatInput");
+      const text = input.value.trim();
+      if (text !== "") {
+        const chatWindow = document.getElementById("chatWindow");
+
+        // ข้อความจากผู้ใช้
+        const userMsg = document.createElement("div");
+        userMsg.className = "chat-message";
+        userMsg.textContent = text;
+        chatWindow.appendChild(userMsg);
+
+        input.value = "";
+        chatWindow.scrollTop = chatWindow.scrollHeight;
+
+        // แอดมินตอบอัตโนมัติ
+        setTimeout(() => {
+          const adminReply = document.createElement("div");
+          adminReply.className = "chat-message admin";
+          adminReply.textContent = "สวัสดีค่ะ เพื่อความสะดวกกับลูกค้า ติดต่อเราที่ LINEแอด @789ZZ นะคะ มีแอดมินดูแลตลอด24 ชม.";
+          chatWindow.appendChild(adminReply);
+          chatWindow.scrollTop = chatWindow.scrollHeight;
+        }, 500);
+      }
+    }
+  </script>
+
   </body>
 </html>
