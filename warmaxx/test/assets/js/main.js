@@ -125,9 +125,9 @@ document.addEventListener("DOMContentLoaded", function () {
   // ==== Fake Review Sliding Queue ====
   const reviewList = document.getElementById("review-list");
   const fakeReviews = [
-    {
+        {
       name: "ชาญยุทธ",
-      image: "images/user1.jpg",
+      image: "imagesuser1.jpg",
       stars: 5,
       comment: "สายฟรีมีรี โอกาสได้เล่นพร้อมโบนัสค่ะ",
     },
@@ -139,49 +139,49 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       name: "ณัฐธิดา",
-      image: "images/user3.jpg",
+      image: "imagesuser2.jpg",
       stars: 5,
       comment: "บริการดีแอดมินตอบไว แนะนำเลยค่ะ",
     },
     {
       name: "มานี",
-      image: "images/user4.jpg",
+      image: "imagesuser2.jpg",
       stars: 4,
       comment: "แนะนำเพื่อนมาได้โบนัสจริงๆ คุ้มมาก",
     },
     {
       name: "วุฒิชัย",
-      image: "images/user5.jpg",
+      image: "imagesuser1.jpg",
       stars: 5,
       comment: "เว็บนี้มั่นใจเลย ถอนจริง!",
     },
     {
       name: "ธนพล",
-      image: "images/user6.jpg",
+      image: "imagesuser1.jpg",
       stars: 4,
       comment: "ฝากถอนไวสุด ๆ 👍",
     },
     {
       name: "อนงค์",
-      image: "images/user7.jpg",
+      image: "imagesuser1.jpg",
       stars: 5,
       comment: "ได้กำไรทุกวัน ประทับใจมากค่ะ",
     },
     {
       name: "ปรีชา",
-      image: "images/user8.jpg",
+      image: "imagesuser1.jpg",
       stars: 3,
       comment: "ระบบเสถียรดี เล่นง่าย",
     },
     {
       name: "สุภาพร",
-      image: "images/user9.jpg",
+      image: "imagesuser2.jpg",
       stars: 4,
       comment: "ชอบตรงโบนัสแตกบ่อย",
     },
     {
       name: "สมศักดิ์",
-      image: "images/user10.jpg",
+      image: "imagesuser1.jpg",
       stars: 5,
       comment: "ได้เงินจริง ไม่มีโกง ✅",
     },
